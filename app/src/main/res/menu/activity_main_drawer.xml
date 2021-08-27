@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_location_city_24"
+            android:title="Find Medical Shop By City" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_add_location_24"
+            android:title="Find Medical Shop By Area" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Admin" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_baseline_add_circle_24"
+            android:title="Register Your Shop " />
+        <item
+            android:id="@+id/nav_medical_informations"
+            android:icon="@drawable/ic_baseline_new_releases_24"
+            android:title="Medical Shops Information" />
+        <item
+            android:id="@+id/nav_shopkeepers_login"
+            android:icon="@drawable/ic_login"
+            android:title="Shopkeeper Login" />
+    </group>
+
+
+
+</menu>
